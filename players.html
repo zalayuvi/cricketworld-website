@@ -6,69 +6,6 @@
   <title>ICC CRICKET WORLD🌍</title>
   <link rel="stylesheet" href="style.css" />
   <style>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Players Search</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #001f3f, #0074D9);
-      color: white;
-      text-align: center;
-      padding: 30px;
-    }
-
-    h1 {
-      margin-bottom: 20px;
-    }
-
-    #searchBar {
-      width: 60%;
-      padding: 12px;
-      border: none;
-      border-radius: 25px;
-      font-size: 16px;
-      outline: none;
-      margin-bottom: 25px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-      width: 60%;
-      margin: auto;
-    }
-
-    li {
-      background: rgba(255, 255, 255, 0.1);
-      padding: 12px;
-      margin: 8px 0;
-      border-radius: 15px;
-      font-size: 18px;
-      transition: 0.3s;
-    }
-
-    li:hover {
-      background: rgba(255, 255, 255, 0.25);
-      cursor: pointer;
-    }
-
-  <script>
-    const searchBar = document.getElementById("searchBar");
-    const playerList = document.getElementById("playerList");
-    const players = playerList.getElementsByTagName("li");
-
-    searchBar.addEventListener("keyup", function() {
-      const filter = searchBar.value.toLowerCase();
-      for (let i = 0; i < players.length; i++) {
-        let text = players[i].textContent || players[i].innerText;
-        players[i].style.display = text.toLowerCase().includes(filter) ? "" : "none";
-      }
-    });
     body {
       font-family: 'Segoe UI', sans-serif;
       background: rgba(37, 176, 201, 1);
@@ -977,4 +914,5 @@
     </div>
   </div>
 </section>
+
 
